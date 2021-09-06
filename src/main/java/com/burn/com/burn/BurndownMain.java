@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.burn.*")
@@ -14,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableAutoConfiguration
 public class BurndownMain {
     public static void main(String[] args) {
-        System.out.println("===Welcome to Project BurnDOwn===");
+        System.out.println("===Welcome to Project BurnDown===");
         ApplicationContext context = SpringApplication.run(BurndownMain.class, args);
 
     }
