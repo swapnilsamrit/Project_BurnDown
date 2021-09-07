@@ -15,14 +15,6 @@ public class LoginServiceImpl implements LoginService {
     @Autowired
     LoginRepository repository;
 
-    @Override
-    public User getUser(int id) {
-        Optional<User> user = repository.findById(id);
-        if (Objects.nonNull(user) || user.isPresent()) {
-            System.out.println("User is available: " + user.get().getUsername());
-        }
-        return user.get();
-    }
 
     @Override
     public boolean validateUser(User vUser) throws LoginException {
