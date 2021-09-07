@@ -1,7 +1,7 @@
 package com.burn.com.burn.servicecontract;
 
 import com.burn.com.burn.exceptions.UserException;
-import com.burn.model.User;
+import com.burn.com.burn.model.User;
 
 import java.util.List;
 

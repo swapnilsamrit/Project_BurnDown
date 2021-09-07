@@ -1,4 +1,4 @@
-package com.burn.model;
+package com.burn.com.burn.model;
 
 import lombok.Data;
 

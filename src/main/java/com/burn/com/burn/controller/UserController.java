@@ -1,9 +1,9 @@
-package com.burn.controller;
+package com.burn.com.burn.controller;
 
 
 import com.burn.com.burn.exceptions.UserException;
 import com.burn.com.burn.servicecontract.UserService;
-import com.burn.model.User;
+import com.burn.com.burn.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

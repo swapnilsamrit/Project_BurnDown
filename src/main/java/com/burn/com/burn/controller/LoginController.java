@@ -1,8 +1,8 @@
-package com.burn.controller;
+package com.burn.com.burn.controller;
 
 import com.burn.com.burn.exceptions.LoginException;
 import com.burn.com.burn.servicecontract.LoginService;
-import com.burn.model.User;
+import com.burn.com.burn.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

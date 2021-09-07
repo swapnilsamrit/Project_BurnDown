@@ -3,7 +3,7 @@ package com.burn.com.burn.service;
 import com.burn.com.burn.exceptions.UserException;
 import com.burn.com.burn.repository.UserRepository;
 import com.burn.com.burn.servicecontract.UserService;
-import com.burn.model.User;
+import com.burn.com.burn.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
