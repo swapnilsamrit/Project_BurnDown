@@ -14,6 +14,4 @@ public class MongoDoc {
     @Indexed(unique = true)
     private String domain;
 
-    private boolean displayAds;
-
 }
