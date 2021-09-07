@@ -1,6 +1,0 @@
-com/burn/model/User.class
-com/burn/com/burn/repository/UserRepository.class
-com/burn/com/burn/servicecontract/UserService.class
-com/test/TestClass.class
-com/burn/controller/Usercontroller.class
-com/burn/com/burn/service/UserServiceImpl.class
